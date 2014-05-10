@@ -1,5 +1,6 @@
 .DS_Store
 public/*
+.idea/*
 core/*
 latest-change.txt
 *-ck.js
