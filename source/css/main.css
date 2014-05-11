@@ -11,6 +11,7 @@ textarea {
 html {
     font-size: 1em;
     line-height: 1.4;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 
 ::-moz-selection {
