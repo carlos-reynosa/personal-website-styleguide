@@ -17,6 +17,8 @@
   },
   "devDependencies": {
     "grunt": "~0.4.5",
-    "grunt-shell": "~0.7.0"
+    "grunt-shell": "~0.7.0",
+    "livereloadx": "~0.3.4",
+    "grunt-cli": "~0.1.13"
   }
 }
