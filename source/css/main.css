@@ -62,6 +62,48 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+a{
+    color:#8A0917
+}
+
+mark{
+   background: #ACCFCC
+}
+
+hr{
+    border-top: 1px solid #B8AE9C;
+}
+
+ul{
+   list-style: none;
+}
+
+ ol li:before {
+    color: #8A0917 ;/* or whatever color you prefer */
+
+}
+
+ul li:before{
+
+    color: #8A0917 ;/* or whatever color you prefer */
+    content: "• ";
+}
+
+
+ul li ul li:before{
+
+    color:#B8AE9C
+}
+
+
+b,strong{
+   color: #595241
+}
+
+::selection{
+    background:#ACCFCC;
+    color:#FFFFFF;
+}
 
 
 
