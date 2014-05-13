@@ -2,6 +2,7 @@
 public/*
 .idea/*
 core/*
+node_modules
 latest-change.txt
 *-ck.js
 *.sass-cache/
