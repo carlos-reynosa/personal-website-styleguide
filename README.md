@@ -1,18 +1,17 @@
-#Running The application with PHP simple http server for development
+#Set up the web server
 
-`php -S localhost:9000`
+`grunt server`
 
-The command is to be used within the public folder of the style guide directory
+- The command uses PHP's simple http server for serving files
 
-#Running the Livereload node port livereloadx
+#Set up livereload
 
-`livereloadx .`
+`grunt livereload`
 
-The command should be run within the public folder of the style guide directory
+- The command uses the node implementation of Livereload
 
+#Set up blog builder watch
 
-# Building the blog when source files have changed
+`grunt regenerate`
 
-`php core/builder.php -W`
-
-The command should be run within the install directory of the style guide
+- The command watches for changes in the source folder and rebuilds the blog
