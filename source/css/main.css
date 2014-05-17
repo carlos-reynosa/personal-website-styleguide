@@ -67,7 +67,8 @@ a{
 }
 
 mark{
-   background: #ACCFCC
+   background: #ACCFCC;
+    color:white;
 }
 
 hr{
@@ -103,6 +104,36 @@ b,strong{
     background:#ACCFCC;
     color:#FFFFFF;
 }
+
+.navigation-link{
+
+    text-transform: uppercase;
+}
+
+
+ul.navigation-link-list li.navigation-link-list-item:before{
+
+
+    content:' ';
+    list-style: none;
+
+}
+
+.navigation-link-list .navigation-link-list-item{
+   display:inline;
+
+    margin-left:16px;
+
+}
+
+.navigation-link-list .navigation-link-list-item .navigation-link{
+   color:white;
+
+
+
+}
+
+
 
 
 /* ==========================================================================
