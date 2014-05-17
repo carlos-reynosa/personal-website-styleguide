@@ -14,5 +14,8 @@
     "source/bower_components",
     "test",
     "tests"
-  ]
+  ],
+  "dependencies": {
+    "csswizardry-grids": "~2.2.0"
+  }
 }
