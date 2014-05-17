@@ -1,0 +1,18 @@
+{
+  "name": "personal-website-styleguide",
+  "version": "0.0.0",
+  "homepage": "https://github.com/carlos-reynosa/personal-website-styleguide",
+  "authors": [
+    "Carlos E. Reynosa-Nunez <raveash9@gmail.com>"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "source/bower_components",
+    "test",
+    "tests"
+  ]
+}
