@@ -134,6 +134,21 @@ ul.navigation-link-list li.navigation-link-list-item:before{
 }
 
 
+.header .logo{
+   float:left;
+}
+
+.header{
+
+    background:#8A0917 ;
+}
+
+.header nav{
+   float:right;
+
+}
+
+
 
 
 /* ==========================================================================
