@@ -16,6 +16,7 @@
     "tests"
   ],
   "dependencies": {
-    "csswizardry-grids": "~2.2.0"
+    "csswizardry-grids": "~2.2.0",
+    "responsive-nav": "git@github.com:viljamis/responsive-nav.js.git#~1.0.32"
   }
 }
