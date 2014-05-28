@@ -15,3 +15,7 @@
 `grunt regenerate`
 
 - The command watches for changes in the source folder and rebuilds the blog
+
+# Watch assets that need to be compiled (i.e. Sass)
+
+`grunt watch-assets`
