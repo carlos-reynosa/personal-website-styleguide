@@ -1,12 +1,27 @@
-<div class="header clearfix">
+<div class=" header clearfix">
+
+    <div class="">
+
 
     {{> atoms-logo }}
 
-    <nav class="nav-collapse" >
+    </div>
+
+    <nav class=" nav-collapse" >
 
         {{> molecules-navigation-link-list }}
     </nav>
+
+
+    <img id="mobile-nav-button"  class='' src="/../../../images/mobile-nav-button.png">
+
     <script>
-        var nav = responsiveNav(".nav-collapse");
+        var nav = responsiveNav(".nav-collapse",{
+
+            customToggle:'mobile-nav-button'
+        });
     </script>
+
+
+
 </div>
