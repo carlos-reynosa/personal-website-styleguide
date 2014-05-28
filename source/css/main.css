@@ -57,99 +57,108 @@ textarea {
     padding: 0.2em 0;
 }
 
-
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
 
-a{
-    color:#8A0917
+a {
+    color: #8A0917
 }
 
-mark{
-   background: #ACCFCC;
-    color:white;
+mark {
+    background: #ACCFCC;
+    color: white;
 }
 
-hr{
+hr {
     border-top: 1px solid #B8AE9C;
 }
 
-ul{
-   list-style: none;
+ul {
+    list-style: none;
 }
 
- ol li:before {
-    color: #8A0917 ;/* or whatever color you prefer */
+ol li:before {
+    color: #8A0917; /* or whatever color you prefer */
 
 }
 
-ul li:before{
+ul li:before {
 
-    color: #8A0917 ;/* or whatever color you prefer */
+    color: #8A0917; /* or whatever color you prefer */
     content: "• ";
 }
 
+ul li ul li:before {
 
-ul li ul li:before{
-
-    color:#B8AE9C
+    color: #B8AE9C
 }
 
-b,strong{
-   color: #595241
+b, strong {
+    color: #595241
 }
 
-::selection{
-    background:#ACCFCC;
-    color:#FFFFFF;
+::selection {
+    background: #ACCFCC;
+    color: #FFFFFF;
 }
 
-.navigation-link{
+.navigation-link {
 
     text-transform: uppercase;
 }
 
+ul.navigation-link-list li.navigation-link-list-item:before {
 
-ul.navigation-link-list li.navigation-link-list-item:before{
-
-
-    content:' ';
+    content: ' ';
     list-style: none;
 
 }
 
-.navigation-link-list .navigation-link-list-item{
-   display:inline;
+/* Navigation is displayed with different formatting depending on the layout*/
 
-    margin-left:16px;
+@media screen and (min-width: 768px) {
+
+    .navigation-link-list .navigation-link-list-item {
+        display: inline;
+
+        margin-left: 16px;
+
+    }
+}
+
+.navigation-link-list .navigation-link-list-item .navigation-link {
+    color: white;
 
 }
 
-.navigation-link-list .navigation-link-list-item .navigation-link{
-   color:white;
+.navigation-link-list {
+    background: #ACCFCC;
+}
 
+.header .logo {
+    max-height: 45px;
+}
 
+.header {
+
+    max-height: 45px;
+
+    min-height: 45px;
+    background: #8A0917;
+}
+
+.header nav {
 
 }
 
+.mobile-nav-button {
 
-.header .logo{
-   float:left;
+    max-height: 45px;
+    max-width: 41px;
+    margin-top: 2px;
+    float: right;
 }
-
-.header{
-
-    background:#8A0917 ;
-}
-
-.header nav{
-   float:right;
-
-}
-
-
-
 
 /* ==========================================================================
    Media Queries
@@ -160,9 +169,9 @@ ul.navigation-link-list li.navigation-link-list-item:before{
 }
 
 @media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
+(-o-min-device-pixel-ratio: 5/4),
+(-webkit-min-device-pixel-ratio: 1.25),
+(min-resolution: 120dpi) {
 
 }
 
