@@ -46,6 +46,7 @@ module.exports = function(grunt){
         },
         sass:{
 
+            /*
             compileSassGrid:{
 
                 options:{
@@ -55,11 +56,12 @@ module.exports = function(grunt){
 
                 files:{
 
-                'source/css/layout/csswizardry-grids/csswizardry-grids.css': 'source/bower_components/csswizardry-grids/csswizardry-grids.scss'
+                '': ''
 
                 }
 
-            }
+            }*/
+
 
         },
 
