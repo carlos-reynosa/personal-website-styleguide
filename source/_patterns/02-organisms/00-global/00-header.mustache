@@ -1,27 +1,35 @@
-<div class=" header clearfix">
-
-    <div class="">
+<div class=" header clearfix container-fluid">
 
 
-    {{> atoms-logo }}
+    <div class="row">
+
+        <div class="col-xs-9">
+
+        {{> atoms-logo }}
+
+        </div>
+
+
+        <div class="col-xs-2 col-xs-offset-1">
+
+            <img id="mobile-nav-button"  class=' mobile-nav-button nav-toggle' src="/../../../images/mobile-nav-button.png">
+
+        </div>
+
+<!-- TODO: appear  navigation when in large view, hide when in small view to display mobile menu -->
+        {{> molecules-navigation-link-list }}
+
+
+
 
     </div>
 
-    <nav class=" nav-collapse" >
+    {{> molecules-navigation-link-list }}
 
-        {{> molecules-navigation-link-list }}
-    </nav>
+        <script>
+            var nav = responsiveNav(".nav-collapse",{
 
-
-    <img id="mobile-nav-button"  class='' src="/../../../images/mobile-nav-button.png">
-
-    <script>
-        var nav = responsiveNav(".nav-collapse",{
-
-            customToggle:'mobile-nav-button'
-        });
-    </script>
-
-
-
+                customToggle:'mobile-nav-button'
+            });
+        </script>
 </div>
