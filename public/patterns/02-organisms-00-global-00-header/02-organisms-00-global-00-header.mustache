@@ -1,0 +1,35 @@
+&lt;div class=&quot; header clearfix container-fluid&quot;&gt;
+
+
+    &lt;div class=&quot;row&quot;&gt;
+
+        &lt;div class=&quot;col-xs-9&quot;&gt;
+
+        {{&gt; atoms-logo }}
+
+        &lt;/div&gt;
+
+
+        &lt;div class=&quot;col-xs-2 col-xs-offset-1&quot;&gt;
+
+            &lt;img id=&quot;mobile-nav-button&quot;  class=' mobile-nav-button nav-toggle' src=&quot;/../../../images/mobile-nav-button.png&quot;&gt;
+
+        &lt;/div&gt;
+
+&lt;!-- TODO: appear  navigation when in large view, hide when in small view to display mobile menu --&gt;
+        {{&gt; molecules-navigation-link-list }}
+
+
+
+
+    &lt;/div&gt;
+
+    {{&gt; molecules-navigation-link-list }}
+
+        &lt;script&gt;
+            var nav = responsiveNav(&quot;.nav-collapse&quot;,{
+
+                customToggle:'mobile-nav-button'
+            });
+        &lt;/script&gt;
+&lt;/div&gt;
