@@ -1,5 +1,4 @@
 .DS_Store
-public/*
 .idea/*
 core/*
 node_modules
