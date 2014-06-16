@@ -1,3 +1,7 @@
+#Style Site Demo
+
+[Style Guide Live Link] (http://carlos-reynosa.github.io/personal-website-styleguide/)
+
 #Set up the web server
 
 `grunt server`
@@ -12,10 +16,18 @@
 
 #Set up blog builder watch
 
-`grunt regenerate`
+`grunt build-site`
 
 - The command watches for changes in the source folder and rebuilds the blog
 
 # Watch assets that need to be compiled (i.e. Sass)
 
 `grunt watch-assets`
+
+#Publish Built Style Guide Site
+
+The following command pushes the built style guide into the gh-pages branch where it is published:
+
+`git subtree push --prefix public origin gh-pages`
+
+The command must be run every time a new version is published.
