@@ -1,3 +1,9 @@
+#About
+
+This repo contains the file used to develop and publish the [fronty-end style guide] (http://24ways.org/2011/front-end-style-guides/)
+for my blog. The style guide is developed using the tool [Pattern Lab] (http://patternlab.io/) and it's associated
+[Atomic Design] (http://css-tricks.com/design-systems-building-future/) philosophy.
+
 #Style Site Demo
 
 [Style Guide Live Link] (http://carlos-reynosa.github.io/personal-website-styleguide/)
