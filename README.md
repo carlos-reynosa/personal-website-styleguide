@@ -1,10 +1,19 @@
 #About
 
-This repo contains the file used to develop and publish the [fronty-end style guide] (http://24ways.org/2011/front-end-style-guides/)
+This repo contains the files used to develop and publish the [fronty-end style guide] (http://24ways.org/2011/front-end-style-guides/)
 for my blog. The style guide is developed using the tool [Pattern Lab] (http://patternlab.io/) and it's associated
 [Atomic Design] (http://css-tricks.com/design-systems-building-future/) philosophy.
 
-#Style Site Demo
+## Mockups
+
+###Narrow Viewport
+<img alt="Narrow Viewport Style Guide Mockup" src="https://223c1abd7147c465e6bb04d84f4898b455bfb575.googledrive.com/host/0BzeRIFydrcV6V3VMMGM1a2hwOUk/mobile-home.jpg" width="300"/>
+
+### Wide Viewport
+
+![Wide Viewport Style Guide Mockup] (https://223c1abd7147c465e6bb04d84f4898b455bfb575.googledrive.com/host/0BzeRIFydrcV6V3VMMGM1a2hwOUk/desktop-home.jpg)
+
+#Style Guide Demo
 
 [Style Guide Live Link] (http://carlos-reynosa.github.io/personal-website-styleguide/)
 
@@ -34,10 +43,10 @@ for my blog. The style guide is developed using the tool [Pattern Lab] (http://p
 
 #Github Pages Publishing
 
-##Publish Built Style Guide Site
+##Publish Style Guide
 
 The following command pushes the built style guide into the gh-pages branch where it is published:
 
 `git subtree push --prefix public origin gh-pages`
 
-The command must be run every time a new version is published.
+The command must be run every time a new version is built.
