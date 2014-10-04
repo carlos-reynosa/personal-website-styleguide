@@ -15,7 +15,7 @@ for my blog. The style guide is developed using the tool [Pattern Lab] (http://p
 
 #Style Guide Demo
 
-[Style Guide Live Link] (http://carlos-reynosa.github.io/personal-website-styleguide/)
+[Style Guide Live Link] (http://www.Carlos-Reynosa.com/personal-website-styleguide/)
 
 #Development Tasks
 
